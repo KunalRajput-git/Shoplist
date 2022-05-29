@@ -1,0 +1,14 @@
+.FilterContainer {
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Selection {
+  margin: 5px;
+  padding: 0;
+}

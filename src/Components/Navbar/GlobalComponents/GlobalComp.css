@@ -27,12 +27,7 @@
 
 .GCard:hover {
   cursor: pointer;
-  box-shadow: 4px 4px 4px black;
-}
-
-.GCardImg {
-  width: 200px;
-  border-radius: 5px 5px 0px 0px;
+  box-shadow: 6px 6px 6px #0d324d;
 }
 
 .GCardBtn {

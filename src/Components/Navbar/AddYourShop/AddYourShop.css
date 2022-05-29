@@ -1,6 +1,7 @@
 .container {
   text-align: center;
   height: 90vh;
+
   /* display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 10fr)); */
   display: flex;
@@ -68,10 +69,16 @@
 }
 
 .shopContainer {
-  padding: 50px;
+  padding: 20px;
+  height: auto;
   width: 70%;
   display: flex;
   align-items: center;
   justify-content: Center;
   flex-wrap: wrap;
+}
+
+.NoData {
+  opacity: 20%;
+  font-family: fantasy;
 }
