@@ -1,0 +1,77 @@
+.container {
+  text-align: center;
+  height: 90vh;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 10fr)); */
+  display: flex;
+  justify-content: space-between;
+}
+
+.formContainer {
+  width: 30%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Card {
+  position: fixed;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+  padding: 10px;
+  border: 2px solid #7f5a83;
+  width: 22%;
+}
+
+.fromSelect {
+  font-family: fantasy;
+  /* font-weight: bold; */
+  font-size: 1em;
+  border-radius: 5px;
+  border: 2px solid #7f5a83;
+  text-align: center;
+  width: 70%;
+  padding: 12px 14px;
+  outline: none;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.Card:hover {
+  box-shadow: 8px 8px 8px #7f5a83;
+}
+
+.formInput {
+  margin: 3px;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 5px;
+  border: 2px solid #7f5a83;
+  text-align: center;
+  width: 70%;
+  padding: 12px 14px;
+}
+
+.formInput:focus {
+  outline: none;
+}
+
+.shopContainer {
+  padding: 50px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: Center;
+  flex-wrap: wrap;
+}

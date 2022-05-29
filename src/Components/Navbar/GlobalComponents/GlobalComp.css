@@ -1,0 +1,49 @@
+.Gbtn {
+  background-color: black;
+  margin: 20px;
+  font-family: fantasy;
+  padding: 8px 12px;
+  cursor: pointer;
+  border: 2px solid black;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgb(56, 55, 55);
+}
+
+.GCard {
+  padding: 40px;
+  /* font-weight: bold; */
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 10px;
+  overflow: hidden;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.GCard:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 4px black;
+}
+
+.GCardImg {
+  width: 200px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.GCardBtn {
+  background-color: black;
+  margin: 10px;
+  font-family: fantasy;
+  padding: 4px 6px;
+  cursor: pointer;
+  border: 2px solid black;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgb(56, 55, 55);
+}
